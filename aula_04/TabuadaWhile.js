@@ -1,6 +1,6 @@
 const leia = require('readline-sync')
 
-let contador = 11;
+let contador =1;
 let numero = leia.questionInt('Digite um numero: ');
 
 while(contador <= 10) {
