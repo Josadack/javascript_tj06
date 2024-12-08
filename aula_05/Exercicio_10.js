@@ -19,7 +19,6 @@ for(let iLinha =0; iLinha < matrizInt.length; iLinha++){
 }
 //calcular media 
 let mediaAluno =[]
-let l
 let media =0;
 for(let linha = 0; linha < matrizInt.length; linha++){
     let soma = 0
