@@ -28,6 +28,9 @@ for(let linha = 0; linha < matrizInt.length; linha++){
     media = soma / matrizInt[linha].length //Calcula a média
     mediaAluno[linha]  = media.toFixed(2);
 }
-console.table(matrizInt)
-console.log(`A media bimestral de cada Aluno: ${ mediaAluno}`)
+console.table(" ")
+console.table("  Médias dos alunos: ")
+for(let i =0; i < mediaAluno.length; i++){
+    console.log(`A Média do ${i+1}º Aluno é: ${mediaAluno[i ]}`)
+}
 
