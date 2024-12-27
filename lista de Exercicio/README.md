@@ -11,10 +11,7 @@ Este repositório contém 20 exercícios desenvolvidos em **JavaScript**, focado
 - 💻 Editor recomendado: **VS Code** ([Download](https://code.visualstudio.com/))  
 
 ### Como executar:  
-1. Clone o repositório:  
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git  
-   cd seu-repositorio  
+
 Execute um exercício:
 bash
 Copiar código
