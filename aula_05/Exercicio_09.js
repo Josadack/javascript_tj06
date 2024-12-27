@@ -28,7 +28,7 @@ for(let iLinha =0; iLinha < matrizInt.length; iLinha++){
 for(let i = 0; i < matrizInt.length; i++){
     soma1 += matrizInt[i][i]
 }
-//Calculo da Diagonal Segundaria
+//Calculo da Diagonal Secundaria
 for(let i =0; i < matrizInt.length; i++){
     soma2 += matrizInt[i][matrizInt.length -1 -i]
 }

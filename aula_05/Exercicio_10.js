@@ -26,7 +26,7 @@ for(let linha = 0; linha < matrizInt.length; linha++){
         soma += matrizInt[linha][coluna]// Soma os elementos da linha
     }
     media = soma / matrizInt[linha].length //Calcula a média
-    mediaAluno[linha]  = media.toFixed(2);
+    mediaAluno[linha]  = media.toFixed(1);
 }
 console.table(" ")
 console.table("  Médias dos alunos: ")
